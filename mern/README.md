@@ -1,5 +1,28 @@
 ## Process to setup MERN app from sratch 
 
+                                   +---------------+
+                               +-->+   FRONTEND    |  reactJS
+                               |   +---------------+
+
+            +-----------+      |
+            | MERN      |      |   +---------------+
+            | APP       +--------->+   BACKEND     |  nodeJS, expressJS,
+            +-----------+      |   +---------------+  Mongoose
+                               |
+                               |
+                               |   +---------------+
+                               +-->+   DATABASE    |  MongoDB ATLAS
+                                   +---------------+
+                                   
+</br>                                   
+
+
+                     BROWSER              HOST               HOST
+                    +-----------+      +-----------+      +-----------+
+                    |  REACT    +------>  EXPRESS  +------>  MONGODB  |
+                    |  SERVER   <------+  SERVER   <------+  SERVER   |
+                    +-----------+      +-----------+      +-----------+
+
 ### Database
 * Make an account on MongoDB atlas.
 * Create a cluster and get an endpoint.
