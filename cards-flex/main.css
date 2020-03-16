@@ -1,18 +1,22 @@
-.container{
-    display: flex;
-    justify-content: space-around;
+body {
+    background-color: #57AB53;
 }
 
-.container div {
-    border: 1px #ccc solid;
-    padding: 10px;
+.container {
+    margin-top: 60px;
 }
 
-.card{
-    width: 27%;
-    border-radius: 5%;
-    box-shadow: 0 -15px 15px rgba(255, 255, 255, 0.5),
-                inset 0 -15px 15px rgba(255, 255, 255, 0.5),
-                0 -15px 15px rgba(0, 0, 0, 0.5),
-                inset 0 -15px 15px rgba(0, 0, 0, 0.5);
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
 }
+
+h4 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.lists .card {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+

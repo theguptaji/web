@@ -41,6 +41,7 @@ npn install cors  // to easily access something outside of server from server
 npn install mongoose  // It interact with mongoDB through nodeJS simpler
 npn install dotenv  // To access local environment variable
 npn install -g nodemon // Helpful tool for development, automatically restarts node app when change is detected
+nodemon server // To start the development node server
 ```
 
 ### Mongoose (express --> mongoose --> MongoDB)
