@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Snake game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="dropdown">
+        <button class="dropdown-button">Speed</button>
+        <div class="dropdown-content">
+            <a onclick="setSpeed('low')">Low</a>
+            <a onclick="setSpeed('medium')">Medium</a>
+            <a onclick="setSpeed('high')">High</a>
+        </div>
+    </div>
+    <div class="board">
+        <div class="snake" id="snake"></div>
+        <div class="food"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
